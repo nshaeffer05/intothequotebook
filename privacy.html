@@ -28,7 +28,7 @@
 <body>
 <main>
   <h1>Privacy Policy</h1>
-  <p class="meta">Quotebook · Last updated 3 September 2026</p>
+  <p class="meta">Quotebook · Last updated 14 September 2026</p>
 
   <p>Quotebook collects as little as it can get away with. This page says exactly
   what that is, where it goes, and how to get rid of it.</p>
@@ -40,15 +40,37 @@
     <tr><td>Email address</td><td>It is how you sign in and how you recover your account.</td><td>Yes</td></tr>
     <tr><td>Name and username</td><td>So the people in your quotegroups know who you are.</td><td>Yes</td></tr>
     <tr><td>Profile photo (optional)</td><td>Only if you choose one.</td><td>Yes</td></tr>
+    <tr><td>Photos on quotes (optional)</td><td>Only if you attach one. Seen by the same people who can see the quote.</td><td>Yes</td></tr>
     <tr><td>Quotes you write</td><td>They are the app.</td><td>Yes</td></tr>
     <tr><td>Quotegroup membership</td><td>Determines who can see what.</td><td>Yes</td></tr>
     <tr><td>Reports you file</td><td>So a moderator can act on them.</td><td>Yes</td></tr>
+    <tr><td>People you make (optional)</td><td>A name, and a photo if you add one, for someone who is not on Quotebook. Seen by the members of the quotegroups where you quote them.</td><td>Yes, to you as their maker</td></tr>
+    <tr><td>Notification token (optional)</td><td>Only if you turn notifications on: an address for your phone, used to tell you when you are quoted or a quote of yours is answered. Deleted when you sign out or turn notifications off.</td><td>Yes</td></tr>
   </table>
   </div>
 
   <p>We do <strong>not</strong> collect location, contacts, browsing history,
   advertising identifiers, or device analytics. There are no third-party
   trackers, no advertising SDKs, and no analytics SDKs in the app.</p>
+
+  <h2>How photos are checked</h2>
+  <p>Before a photo appears to anyone, it is checked automatically for sexual
+  content, graphic violence, and content involving minors. The check is done
+  by <a href="https://www.anthropic.com/legal/privacy">Anthropic</a>, whose
+  Claude model looks at the photo alone &mdash; not your name, your email, or
+  the quote it belongs to &mdash; and returns allow or reject. Anthropic does
+  not use data sent this way to train its models. A rejected photo is deleted
+  immediately. The app asks for your agreement before your first photo is
+  sent.</p>
+
+  <h2>Services we use</h2>
+  <p>Your data reaches these services, each only for the job listed, and no others:</p>
+  <ul>
+    <li><a href="https://supabase.com/privacy">Supabase</a> stores your account, quotes and photos.</li>
+    <li><a href="https://www.anthropic.com/legal/privacy">Anthropic</a> checks each photo, as described above.</li>
+    <li><a href="https://resend.com/legal/privacy-policy">Resend</a> delivers sign-in emails, such as password reset codes, to your email address.</li>
+    <li><a href="https://expo.dev/privacy">Expo</a> and Apple deliver notifications, if you turn them on. They receive your notification token and the notification itself: who quoted you, or who answered, and the start of the quote.</li>
+  </ul>
 
   <h2>Who can see your quotes</h2>
   <p>A quote is visible to the members of the quotegroup you posted it to, and
@@ -83,6 +105,12 @@
   <p>Quotebook is not intended for anyone under 13, and we do not knowingly
   collect information from them. If you believe a child has created an account,
   write to us and it will be removed.</p>
+  <p>An adult can make a profile for a child who is not on Quotebook, to keep
+  what they say. That profile holds only what its maker adds — a name and,
+  optionally, a photo — and is seen only by the quotegroups where the child is
+  quoted. The child has no account and nothing is collected from them. Whoever
+  made the profile can remove it at any time, and a parent or guardian can ask
+  us to remove one by writing to us.</p>
 
   <h2>Your rights</h2>
   <p>Depending on where you live you may have the right to access, correct,
